@@ -1,0 +1,194 @@
+/* table.table {
+  width: 100%;
+}
+
+.table th,
+.table td {
+  text-align: center;
+  padding: 0.25em;
+}
+
+.table tr {
+  border-bottom: 1px solid #ddd;
+}
+td.edit-buttons {
+  text-align: center;
+}
+.edit,
+.delete {
+  border-radius: 3px;
+  border: none;
+  margin: 0 0.25em;
+  transition: all 0.3s;
+}
+
+.edit:hover,
+.delete:hover {
+  box-shadow: 0 0 4px rgba(3, 3, 3, 0.8);
+  opacity: 0.9;
+}
+
+button.edit {
+  background: #6f9;
+}
+button.delete {
+  background: #f69;
+}
+
+@media screen and (max-width: 800px) {
+  tr {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0.5em 0;
+    border: 1px solid rgba(3, 3, 3, 0.2);
+  }
+  td,
+  th {
+    flex: 1 1 150px;
+    border: 0.5px solid rgba(3, 3, 3, 0.2);
+  }
+} */
+.courseTable {
+  margin-left: 28%;
+  margin-top: 5%;
+  overflow-y: scroll;
+  display: block;
+  max-height: 420px;
+  width: 70%;
+  margin-bottom: 1rem;
+}
+table {
+  width: 867px;
+  border-collapse: collapse;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+th,
+td {
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+th {
+  text-align: left;
+}
+thead th {
+  background-color: #55608f;
+  text-align: center;
+}
+tbody tr:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+tbody td {
+  position: relative;
+}
+tbody td:hover:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -9999px;
+  bottom: -9999px;
+  background-color: rgba(255, 255, 255, 0.2);
+  z-index: -1;
+}
+.edit,
+.delete {
+  border-radius: 3px;
+  border: none;
+  margin: 0 0.25em;
+  transition: all 0.3s;
+  padding: 10px 1px;
+}
+
+.edit:hover,
+.delete:hover {
+  box-shadow: 0 0 4px rgba(3, 3, 3, 0.8);
+  opacity: 0.9;
+}
+
+button.edit {
+  background: #55608f;
+}
+button.delete {
+  background: #55608f;
+}
+table {
+  border-collapse: collapse;
+  border-radius: 10px 10px 10px 10px;
+
+  background-color: white;
+}
+thead {
+  display: table-header-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+table th {
+  font-family: Lato-Bold;
+  font-size: 18px;
+  color: #fff;
+  line-height: 1.4;
+  background-color: #7f8cec;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  text-align: center;
+}
+table td {
+  font-family: sans-serif;
+  font-size: 15px;
+  color: gray;
+  line-height: 1.4;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+tr:nth-child(even) {
+  background-color: #dfe3f3 !important;
+}
+
+/* CSS */
+.tableButton {
+  appearance: none;
+  background-color: transparent;
+  border: 1px solid #1a1a1a;
+  border-radius: 10px;
+  box-sizing: border-box;
+  color: #3b3b3b;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 10px;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0;
+  min-height: 20px;
+  min-width: 0;
+  outline: none;
+  padding: 10px 12px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 40%;
+  will-change: transform;
+  margin-left: 10px;
+}
+
+.tableButton:disabled {
+  pointer-events: none;
+}
+
+.tableButton:hover {
+  color: #fff;
+  background-color: #1a1a1a;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.tableButton:active {
+  box-shadow: none;
+  transform: translateY(0);
+}

@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: rgba(243, 245, 248) !important;
+  height: 100vh;
 }
 
 .App-logo {
@@ -35,4 +37,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+.radio label {
+  margin-left: 10px;
+}
+.radio input {
+  margin-bottom: 15px;
 }

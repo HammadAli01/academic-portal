@@ -1,0 +1,176 @@
+.dropdown {
+  /* float: left;
+  margin-left: 680px;
+  position: absolute;
+  transform: translate(0, -100%); */
+  float: right;
+  margin-top: 20px;
+  margin-right: 50px !important;
+  margin-bottom: 20px;
+}
+
+.dropdown .dropbtn {
+  font-size: 12px;
+  border-radius: 5px;
+  padding: 10px 14px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.dropdown:hover .dropbtn {
+  background-color: rgb(92, 84, 84);
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* .dropdown-content a:hover {
+  background-color: #ddd;
+} */
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.addcourse {
+  margin-top: 20px;
+}
+.course_field {
+  border: 0;
+  border-bottom: 2px solid #9b9b9b;
+  outline: 0;
+  font-size: 1rem;
+  padding: 7px 0;
+  margin-left: -180px;
+  width: 20%;
+}
+.course-submit {
+  float: right;
+  padding: 8px 10px;
+  margin-top: -5px;
+  margin-right: 20px;
+}
+/* .modal {
+  position: absolute;
+  width: 30%;
+  display: block;
+  background-color: azure;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  margin-left: 45%;
+  margin-right: 50%;
+  transform: translate(0, -50%);
+  padding: 20px;
+  top: 128px;
+  border-radius: 5px;
+  text-align: left;
+} */
+
+.teacher-dropdown {
+  display: inline-table;
+}
+
+.teacher-dropdown .teacher-dropbtn {
+  font-size: 12px;
+  border-radius: 5px;
+  padding: 8px 24px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.teacher-dropdown:hover .teacher-dropbtn {
+  background-color: rgb(92, 84, 84);
+  cursor: pointer;
+}
+
+.teacher-dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.teacher-dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* .dropdown-content a:hover {
+  background-color: #ddd;
+} */
+
+.teacher-dropdown:hover .teacher-dropdown-content {
+  display: block;
+}
+/* .modal h4 {
+  width: 100%;
+  height: 20%;
+  background-color: #9b9b9b;
+  color: black;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.modal label {
+  margin-right: 20px;
+}
+.dropdown-container {
+  margin-top: 25px;
+}
+.modal input {
+  border: 0px;
+  border-bottom: 1px solid black;
+  background-color: transparent;
+  font-size: 12px;
+  height: 20px;
+}
+.modal input:active {
+  border: 0px !important;
+  border-bottom: 1px solid black !important;
+} */
+.modalinput {
+  border-radius: 5px !important;
+  margin-left: 70px !important;
+}
+.modallabel {
+  margin-left: 60px;
+}
+.teacherlabel {
+  position: absolute;
+  margin-top: 25px;
+}
+.teachernameError,
+.coursenameError {
+  display: block;
+  font-size: smaller;
+  color: red;
+}
+.teachernameError {
+  position: absolute;
+  margin-left: 56%;
+  margin-top: 60px;
+}
+.coursenameError {
+  position: absolute;
+  margin-left: 46%;
+}
+.coursenameaddbutton {
+  margin-bottom: 10px;
+  float: right;
+  margin-right: 45px;
+}

@@ -1,0 +1,557 @@
+{
+  "users": [
+    {
+      "username": "hammad",
+      "email": "a@b.com",
+      "password": "a",
+      "role": "admin",
+      "id": 1
+    },
+    {
+      "username": "hammad",
+      "email": "b@a.com",
+      "password": "a",
+      "role": "teacher",
+      "id": 2
+    },
+    {
+      "username": "kamran",
+      "email": "K@a.com",
+      "password": "a",
+      "role": "teacher",
+      "id": 22
+    },
+    {
+      "username": "umer",
+      "email": "umer@gmail.com",
+      "password": "asd",
+      "role": "student",
+      "id": 3,
+      "serialNo": 1
+    },
+    {
+      "username": "haris",
+      "email": "haris@gmail.com",
+      "password": "asdf",
+      "role": "student",
+      "id": 4
+    },
+    {
+      "username": "farhad",
+      "email": "farhad@gmaiil.com",
+      "password": "asdf",
+      "role": "student",
+      "id": 5
+    },
+    {
+      "username": "kamran",
+      "email": "kamran@gmaiil.com",
+      "password": "asdf",
+      "role": "student",
+      "id": 6
+    },
+    {
+      "username": "hammadk",
+      "email": "m@gmail.com",
+      "password": "dddd",
+      "role": "student",
+      "id": 7
+    },
+    {
+      "username": "hammado",
+      "email": "mo@gmail.com",
+      "password": "dddd",
+      "role": "student",
+      "id": 8
+    },
+    {
+      "username": "hammadi",
+      "email": "mi@gmail.com",
+      "password": "dddd",
+      "role": "student",
+      "id": 9
+    },
+    {
+      "username": "hammadu",
+      "email": "mu@gmail.com",
+      "password": "dddd",
+      "role": "student",
+      "id": 11
+    },
+    {
+      "username": "hammady",
+      "email": "ym@gmail.com",
+      "password": "dddd",
+      "role": "student",
+      "id": 12
+    },
+    {
+      "username": "hammadt",
+      "email": "mt@gmail.com",
+      "password": "dddd",
+      "role": "student",
+      "id": 13
+    },
+    {
+      "username": "hammadr",
+      "email": "r@gmail.com",
+      "password": "dddd",
+      "role": "student",
+      "id": 14
+    },
+    {
+      "username": "hammade",
+      "email": "me@gmail.com",
+      "password": "dddd",
+      "role": "student",
+      "id": 15
+    },
+    {
+      "username": "hammadw",
+      "email": "mw@gmail.com",
+      "password": "dddd",
+      "role": "student",
+      "id": 16
+    },
+    {
+      "username": "hammadq",
+      "email": "mq@gmail.com",
+      "password": "dddd",
+      "role": "student",
+      "id": 17
+    },
+    {
+      "username": "new student",
+      "email": "new@email.com",
+      "password": "asd",
+      "role": "student",
+      "id": 23
+    },
+    {
+      "username": "er",
+      "email": "er@gmail.com",
+      "password": "asd",
+      "role": "student",
+      "id": 24
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "name": " programming",
+      "classes": 4,
+      "studentIds": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        3
+      ],
+      "teacherId": 2,
+      "teacherName": "hammad",
+      "status": "Active"
+    },
+    {
+      "id": 2,
+      "name": "fundamentals",
+      "classes": 2,
+      "studentIds": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "teacherId": 2,
+      "teacherName": "hammad",
+      "status": "Active"
+    },
+    {
+      "name": "dummy",
+      "classes": 1,
+      "studentIds": [
+        4,
+        3
+      ],
+      "teacherId": 2,
+      "teacherName": "hammad",
+      "id": 3,
+      "status": "Active"
+    },
+    {
+      "name": "new updated1",
+      "classes": 1,
+      "studentIds": [
+        4,
+        5
+      ],
+      "teacherId": 22,
+      "teacherName": "kamran",
+      "id": 4,
+      "status": "Active"
+    },
+    {
+      "name": "new course ",
+      "classes": 1,
+      "studentIds": [
+        6,
+        7
+      ],
+      "teacherId": 2,
+      "teacherName": "hammad",
+      "id": 5,
+      "status": "Active"
+    },
+    {
+      "name": "a new course",
+      "teacherId": 22,
+      "teacherName": "hammad",
+      "studentIds": [],
+      "classes": 0,
+      "status": "Active",
+      "id": 6
+    },
+    {
+      "name": "   test ",
+      "teacherId": 22,
+      "teacherName": "hammad",
+      "studentIds": [],
+      "classes": 0,
+      "id": 7
+    }
+  ],
+  "classes": [
+    {
+      "id": 1,
+      "topic": "why programming",
+      "date": "2023-03-09",
+      "courseId": 1,
+      "studentsIds": [
+        5,
+        8,
+        9,
+        11,
+        12,
+        13,
+        17,
+        3,
+        7
+      ]
+    },
+    {
+      "id": 2,
+      "topic": "good programming",
+      "date": "2023-02-09",
+      "courseId": 2,
+      "studentsIds": [
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "topic": "new topic",
+      "date": "2023-03-19",
+      "courseId": 1,
+      "studentsIds": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "id": 3
+    },
+    {
+      "topic": "React initials",
+      "date": "2023-03-21",
+      "courseId": 1,
+      "studentsIds": [
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        3
+      ],
+      "id": 4
+    },
+    {
+      "topic": "initials of course",
+      "date": "2023-03-21",
+      "courseId": 3,
+      "studentsIds": [
+        3
+      ],
+      "id": 5
+    },
+    {
+      "topic": "test topic",
+      "date": "2023-03-30",
+      "courseId": 2,
+      "studentsIds": [
+        4,
+        6
+      ],
+      "id": 6
+    },
+    {
+      "topic": "new topic programs",
+      "date": "2023-04-07",
+      "courseId": 1,
+      "studentsIds": [
+        3,
+        4,
+        9,
+        12,
+        13,
+        15,
+        16
+      ],
+      "id": 7
+    }
+  ],
+  "leaveRequests": [
+    {
+      "id": 1,
+      "courseSelected": {
+        "name": " programming",
+        "id": 1
+      },
+      "dateSelected": "2023-03-10",
+      "reason": "Family emergencya",
+      "student": {
+        "name": "umer",
+        "id": 3
+      },
+      "status": "Admin Approved"
+    },
+    {
+      "reason": "Family wedding1",
+      "dateSelected": "2023-03-10",
+      "courseSelected": {
+        "id": 2,
+        "name": "programming",
+        "teacherId": 2
+      },
+      "student": {
+        "name": "umer",
+        "id": 3
+      },
+      "status": "Admin Approved",
+      "id": 2
+    },
+    {
+      "reason": "Family wedding reason",
+      "dateSelected": "2023-03-12",
+      "courseSelected": {
+        "id": 2,
+        "name": "programming",
+        "teacherId": 2
+      },
+      "student": {
+        "name": "umer",
+        "id": 3
+      },
+      "status": "Teacher Approval",
+      "id": 4
+    },
+    {
+      "id": 3,
+      "courseSelected": {
+        "name": " programming",
+        "id": 1
+      },
+      "dateSelected": "2023-03-10",
+      "reason": "Family wedding2",
+      "student": {
+        "name": "umer",
+        "id": 3
+      },
+      "status": "Admin Disapproved"
+    },
+    {
+      "reason": "none  45er",
+      "dateSelected": "2023-04-07",
+      "courseSelected": {
+        "id": 5,
+        "name": "fundamentals"
+      },
+      "student": {
+        "name": "umer",
+        "id": 3
+      },
+      "status": "Teacher Approval",
+      "id": 5
+    }
+  ],
+  "Quiz": [
+    {
+      "courseId": "2",
+      "courseName": "fundamentals",
+      "topic": "js basics",
+      "dateSelected": "2023-03-29",
+      "res": [
+        {
+          "id": 3,
+          "marks": "10"
+        },
+        {
+          "id": 4,
+          "marks": "5"
+        },
+        {
+          "id": 5,
+          "marks": "8"
+        },
+        {
+          "id": 6,
+          "marks": 0
+        }
+      ],
+      "id": 1
+    },
+    {
+      "courseId": "4",
+      "courseName": "new updated1",
+      "topic": "intro to java",
+      "dateSelected": "2023-03-29",
+      "res": [
+        {
+          "id": 4,
+          "marks": "10"
+        },
+        {
+          "id": 5,
+          "marks": "7"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "courseId": "1",
+      "courseName": " programming",
+      "topic": "java",
+      "dateSelected": "2023-04-05",
+      "res": [
+        {
+          "id": 3,
+          "marks": "10"
+        },
+        {
+          "id": 4,
+          "marks": "7"
+        },
+        {
+          "id": 5,
+          "marks": "8"
+        },
+        {
+          "id": 6,
+          "marks": "6"
+        },
+        {
+          "id": 7,
+          "marks": "5"
+        },
+        {
+          "id": 8,
+          "marks": "4"
+        },
+        {
+          "id": 9,
+          "marks": "4"
+        },
+        {
+          "id": 11,
+          "marks": "4"
+        },
+        {
+          "id": 12,
+          "marks": "7"
+        },
+        {
+          "id": 13,
+          "marks": 0
+        },
+        {
+          "id": 14,
+          "marks": 0
+        },
+        {
+          "id": 15,
+          "marks": 0
+        },
+        {
+          "id": 16,
+          "marks": 0
+        }
+      ],
+      "id": 3
+    }
+  ],
+  "exam": [
+    {
+      "courseId": 3,
+      "courseName": "dummy",
+      "date1": {
+        "date": "2023-03-16",
+        "studentsIds": [
+          3
+        ]
+      },
+      "date2": {
+        "date": "2023-03-17",
+        "studentsIds": []
+      },
+      "date3": {
+        "date": "2023-03-19",
+        "studentsIds": []
+      },
+      "id": 1
+    },
+    {
+      "courseName": "fundamentals",
+      "courseId": 2,
+      "date1": {
+        "date": "2023-03-29",
+        "studentsIds": []
+      },
+      "date2": {
+        "date": "2023-03-11",
+        "studentsIds": []
+      },
+      "date3": {
+        "date": "2023-03-07",
+        "studentsIds": [
+          3
+        ]
+      },
+      "id": 2
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+nav.black a {
+  display: inline-block;
+  z-index: 10;
+  width: 30%;
+  padding: 0.5em 0;
+  text-align: center;
+  cursor: pointer;
+}
+
+nav.black {
+  background: #b9b6b6;
+  border-radius: 0px 0px 5px 5px;
+  height: 56px;
+}
+nav.black a {
+  margin-left: 20%;
+}
+.bt-nav {
+  background-color: #0dcaf0 !important;
+}

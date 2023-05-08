@@ -1,0 +1,81 @@
+.button-68 {
+  appearance: none;
+  backface-visibility: hidden;
+  background-color: #27ae60;
+  border-radius: 8px;
+  border-style: none;
+  box-shadow: rgba(39, 174, 96, 0.15) 0 4px 9px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 10px;
+  font-family: Inter, -apple-system, system-ui, "Segoe UI", Helvetica, Arial,
+    sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: normal;
+  line-height: 1.5;
+  outline: none;
+  overflow: hidden;
+  padding: 13px 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transform: translate3d(0, 0, 0);
+  transition: all 0.3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+  float: right;
+  margin-right: 20px;
+}
+
+.button-68:hover {
+  background-color: #1e8449;
+  opacity: 1;
+  transform: translateY(0);
+  transition-duration: 0.35s;
+}
+
+.button-68:active {
+  transform: translateY(2px);
+  transition-duration: 0.35s;
+}
+
+.button-68:hover {
+  box-shadow: rgba(39, 174, 96, 0.2) 0 6px 12px;
+}
+.head {
+  margin-top: 10px;
+  margin-left: 20%;
+}
+.admin-chart {
+  position: absolute;
+  margin-left: 30%;
+  margin-top: 10px;
+  bottom: 0px;
+}
+.span1,
+.span2 {
+  padding: 10px 50px;
+  background-color: #cadae9 !important;
+  display: inline-grid;
+  margin-left: 40px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.span1 {
+  margin-left: 21%;
+}
+.span1 h6,
+.span2 h6 {
+  font-size: 20px;
+  color: #4495de;
+}
+.span1 p,
+.span2 p {
+  color: white;
+  font-weight: 700;
+}

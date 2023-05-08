@@ -1,0 +1,89 @@
+.sidebar {
+  position: fixed;
+  width: 20%;
+  height: 100vh;
+  background: #a3f0ff;
+  font-size: 0.65em;
+}
+
+.nav {
+  position: relative;
+  margin: 0;
+  text-align: right;
+  font-weight: bold;
+  background-color: #a3f0ff !important;
+}
+
+.nav ul {
+  list-style: none;
+  width: 100%;
+  padding-left: 0px !important;
+}
+.nav ul li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.nav ul li a {
+  line-height: 3em;
+  /* text-transform: uppercase; */
+  text-decoration: none;
+  /* letter-spacing: 0.4em; */
+  color: #544848;
+  display: block;
+  transition: all ease-out 300ms;
+  width: initial;
+  height: inherit;
+  font-size: small;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+}
+.nav ul li.active a {
+  color: rgba(4, 4, 4, 0.75);
+}
+
+.nav ul li:not(.active):hover a {
+  background-color: rgba(102, 194, 220, 0.9);
+  -webkit-transition: all 0.6s ease;
+  -moz-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+  font-size: medium;
+  color: white;
+}
+.nav ul li::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 0.2em;
+  background: black;
+  left: 0;
+  bottom: 0;
+  background-image: linear-gradient(to right, #3e3d3e, #797478);
+}
+
+.addstudentfield {
+  margin-top: 10px;
+}
+.modalcourselabel {
+  margin-left: 30%;
+  position: absolute;
+  margin-top: -10px;
+}
+
+.modaldatelabel {
+  margin-top: -10px;
+  margin-left: 60%;
+  position: absolute;
+}
+.leaveerror {
+  color: red;
+  font-size: 10px;
+}
+.courseSelecterror {
+  color: red;
+  font-size: 10px;
+  position: absolute;
+  margin-left: 60%;
+  margin-top: 12%;
+}

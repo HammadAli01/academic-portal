@@ -1,0 +1,12 @@
+{
+  "teacherColumn": ["Id", "Name", "Total Students", "Classes"],
+  "studentColumn": ["Id", "Topic", "Present Students", "Classes"],
+  "AdminColumn": [
+    "S/No",
+    "Name",
+    "Teacher assigned",
+    "Total Students",
+    "Classes",
+    "Action"
+  ]
+}

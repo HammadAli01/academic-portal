@@ -1,0 +1,181 @@
+.route-button {
+  padding: 12px 14px;
+  float: right;
+  margin-right: 20px;
+  font-size: medium;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #27ae60;
+  border: 0px solid lightgreen;
+  display: block;
+  margin-top: 20px;
+}
+.class-table {
+  margin-left: 27%;
+  margin-right: 5%;
+  margin-top: 20px;
+  overflow-y: scroll;
+  display: block;
+  width: 70%;
+  margin-bottom: 1rem;
+  background-color: transparent;
+  max-height: 420px;
+}
+.class-table > thead > tr > th,
+.class-table > tbody > tr > th,
+.class-table > tbody > tr > td,
+.class-table > thead > tr > td {
+  padding: 8px !important;
+  line-height: 1.42857143 !important;
+  vertical-align: top !important;
+  border-top: 1px solid #ddd !important;
+  text-align: left !important;
+  padding-left: 10px !important;
+  width: 278px;
+}
+.class-table > tbody > tr > th,
+.class-table > tbody > tr > td {
+  font-size: medium;
+  font-weight: lighter;
+}
+.class-table > tbody {
+  display: block;
+}
+.topic .topicname,
+.topicdate {
+  border: 0px;
+  border-bottom: 1px solid black;
+  width: 30%;
+  font-size: medium;
+  line-height: 20px;
+  background: transparent;
+}
+.topic {
+  margin-top: 10px;
+  padding-left: 23%;
+  margin-left: -1%;
+  margin-bottom: 10px;
+}
+.topicname {
+  margin-right: 60px;
+  width: 40%;
+}
+.topicdate {
+  margin-left: 20px;
+}
+.topic-error {
+  color: red;
+  font-size: small;
+  position: absolute;
+  margin-left: -26.5%;
+  margin-top: 20px;
+}
+.add {
+  max-height: 420px;
+}
+.course > thead > tr,
+.course > tbody > tr {
+}
+.save {
+  padding: 10px 18px;
+  border-radius: 10px;
+  background-color: #6767a2;
+  border: 0px solid transparent;
+  color: white;
+  float: right;
+  margin-right: 4%;
+}
+.leave {
+}
+.leavedate {
+  margin-left: 45%;
+  display: block;
+  border: 0px;
+  border-bottom: 1px solid black;
+  width: 30%;
+  font-size: medium;
+  line-height: 20px;
+  margin-top: 50px;
+  margin-left: 340px;
+}
+.leavereason {
+  margin-top: 50px;
+}
+.leave-section {
+  margin-top: 50px;
+  padding-top: 50px;
+  padding-left: 25%;
+}
+.leave-dropdown {
+  margin-left: 380px !important;
+  transform: translate(-50%, 0);
+}
+.leave-dropbtn {
+}
+.leave-content {
+}
+.submitLeave {
+  display: block;
+  margin-top: 50px;
+  padding: 14px 18px;
+  background: #85dede;
+  border: 0px solid transparent;
+  border-radius: 5px;
+
+  margin-left: 45%;
+}
+
+.saveButton {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: transparent 0 0 0 3px, rgba(18, 18, 18, 0.1) 0 6px 20px;
+  box-sizing: border-box;
+  color: #121212;
+  cursor: pointer;
+  display: inline-flex;
+  flex: 1 1 auto;
+  font-family: Inter, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 1;
+  margin: 0;
+  outline: none;
+  padding: 1rem 1.2rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow 0.2s, -webkit-box-shadow 0.2s;
+  white-space: nowrap;
+  border: 0;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  float: right;
+  margin-right: 45px;
+}
+
+.saveButton:hover {
+  box-shadow: #121212 0 0 0 3px, transparent 0 0 0 0;
+}
+.examaddbutton {
+  float: right;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 65px;
+}
+.course-selected-label {
+  text-align: center;
+  margin-top: 25px;
+  position: absolute;
+  margin-left: 25%;
+}
+.dateError {
+  color: red;
+  font-size: 10px;
+  margin-left: 35%;
+  margin-top: 20px;
+}
+.editview {
+  padding: 14px 0px !important;
+}
